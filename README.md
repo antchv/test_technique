@@ -9,6 +9,7 @@ Difficultés :
 
 ## partie 2
 Difficultés :  
+    - Comprendre les "attentes classiques du telle classe" --> gestion de la mémoire, noms explicites, gestion des execptions  
     - Comprendre comment gérer les différents type d'images --> template  
     - Utilisation de unique_ptr pour une utilisation auto de la mémoire, pas besoin d'avoir un destructeur dans notre classe  
     - choix d'un ptr car taille connu à l'avance et a priori ne va pas changer dans la durée de vie de l'objet, taille = 3096*2080  
