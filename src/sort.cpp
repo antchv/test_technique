@@ -128,21 +128,48 @@ public:
 
 
 
+
 // Programme de test
 int main() {
-   Trieur trieur;
+    Trieur trieur;
 
-    // Marche avec vector
+    // Test avec std::vector
     std::vector<double> vec = {64.5, 34.2, 25.1};
+    std::cout << "Vector avant tri : ";
+    for (const auto& v : vec) std::cout << v << " ";
+    std::cout << std::endl;
+
     trieur.trier(vec);
 
-    // Marche avec tableau C
+    std::cout << "Vector après tri : ";
+    for (const auto& v : vec) std::cout << v << " ";
+    std::cout << std::endl;
+
+    // Test avec tableau C
     int tab[] = {64, 34, 25};
+    size_t tabSize = std::size(tab); // Taille du tableau
+    std::cout << "Tableau C avant tri : ";
+    for (size_t i = 0; i < tabSize; ++i) std::cout << tab[i] << " ";
+    std::cout << std::endl;
+
     trieur.trier(tab);
 
-    // Marche avec std::array
+    std::cout << "Tableau C après tri : ";
+    for (size_t i = 0; i < tabSize; ++i) std::cout << tab[i] << " ";
+    std::cout << std::endl;
+
+    // Test avec std::array
     std::array<float, 3> arr = {64.5f, 34.2f, 25.1f};
+    std::cout << "Array avant tri : ";
+    for (const auto& a : arr) std::cout << a << " ";
+    std::cout << std::endl;
+
     trieur.trier(arr);
+
+    std::cout << "Array après tri : ";
+    for (const auto& a : arr) std::cout << a << " ";
+    std::cout << std::endl;
+
 
 //    // Test avec vector
 //    std::vector<double> vec = {64.5, 34.2, 25.1, 12.3, 22.4, 11.1, 90.0};
