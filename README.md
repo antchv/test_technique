@@ -23,3 +23,12 @@ Difficultés :
     - choix du pivot, dans une parmière version j'ai choisit le dernier éléments. Mais cela peut etre contre productif si le tableau est deja presque bien trier
         --> utilisation  
     - utilisation de std::swap au lieu d'avoir une méthode "échanger" que j'avais codé à la main  
+
+
+## Lancer les codes
+mkdir build  
+cd build  
+cmake ..  
+make  
+
+les exécutables seront dans le dossier build : TestTechnique_couleur, TestTechnique_image, TestTechnique_sort
