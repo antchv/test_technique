@@ -11,6 +11,7 @@
 
 /*
 Difficultés :
+    - Comprendre les "attentes classiques du telle classe" --> gestion de la mémoire, noms explicites, gestion des execptions
     - Comprendre comment gérer les différents type d'images --> template
     - Utilisation de unique_ptr pour une utilisation auto de la mémoire, pas besoin d'avoir un destructeur dans notre classe
     - Calcul correct de l'indice dans le tableau 1D pour simuler une matrice 2D
