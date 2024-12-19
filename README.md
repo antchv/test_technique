@@ -11,6 +11,7 @@ Difficultés :
 Difficultés :  
     - Comprendre comment gérer les différents type d'images --> template  
     - Utilisation de unique_ptr pour une utilisation auto de la mémoire, pas besoin d'avoir un destructeur dans notre classe  
+    - choix d'un ptr car taille connu à l'avance et a priori ne va pas changer dans la durée de vie de l'objet, taille = 3096*2080  
     - Calcul correct de l'indice dans le tableau 1D pour simuler une matrice 2D  
     - Interprétation de la consigne " mécanisme d'accès par ligne "  --> choisi de retourner un ptr vers la ligne concerné au lieu de faire une copie de la ligne entière  
 
